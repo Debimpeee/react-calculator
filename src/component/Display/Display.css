@@ -1,0 +1,22 @@
+.display{
+    display: flex;
+    flex-direction: column;
+    background-color: #373737;
+    color: #fff;
+    height: 280px;
+    width: 300px;
+    padding-top: 10rem;
+    padding-right: 1.2rem;
+    text-align: right;
+    gap: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  
+  input {
+    color: #fff;
+    text-align: right;
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+  }
