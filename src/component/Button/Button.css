@@ -17,6 +17,7 @@
     margin-top: 1rem;
     transition: 0.2s;
     user-select: none;
+    outline: none;
   }
 
   .button p {
@@ -59,8 +60,17 @@
   }
 
 
+  @media (max-width: 768px) {
+    .buttons {
+      cursor: none;
+    }
+  }
 
-
+  @media (max-width: 400px) {
+    .buttons {
+      width: 100%;
+    }
+  }
 
 
 

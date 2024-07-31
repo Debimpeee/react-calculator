@@ -17,3 +17,10 @@
   }
     
    
+  @media (max-width: 400px) {
+    .calculator {
+      max-width: 400px;
+      max-height: 800px;
+      border-radius: 0;
+    }
+  }
